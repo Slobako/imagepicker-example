@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		E11D8A731DB1D7AB00BB07A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E11D8A721DB1D7AB00BB07A5 /* main.m */; };
 		E11D8A761DB1D7AB00BB07A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E11D8A751DB1D7AB00BB07A5 /* AppDelegate.m */; };
-		E11D8A791DB1D7AB00BB07A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E11D8A781DB1D7AB00BB07A5 /* ViewController.m */; };
 		E11D8A7C1DB1D7AB00BB07A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11D8A7A1DB1D7AB00BB07A5 /* Main.storyboard */; };
 		E11D8A7E1DB1D7AB00BB07A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11D8A7D1DB1D7AB00BB07A5 /* Assets.xcassets */; };
 		E11D8A811DB1D7AB00BB07A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11D8A7F1DB1D7AB00BB07A5 /* LaunchScreen.storyboard */; };
+		E11D8A8A1DB1D87000BB07A5 /* XYChoosePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E11D8A891DB1D87000BB07A5 /* XYChoosePhotoViewController.m */; };
+		E11D8A8D1DB1D88300BB07A5 /* XYAddPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E11D8A8C1DB1D88300BB07A5 /* XYAddPhotoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		E11D8A721DB1D7AB00BB07A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E11D8A741DB1D7AB00BB07A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E11D8A751DB1D7AB00BB07A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E11D8A771DB1D7AB00BB07A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E11D8A781DB1D7AB00BB07A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E11D8A7B1DB1D7AB00BB07A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E11D8A7D1DB1D7AB00BB07A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E11D8A801DB1D7AB00BB07A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E11D8A821DB1D7AB00BB07A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E11D8A881DB1D87000BB07A5 /* XYChoosePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYChoosePhotoViewController.h; sourceTree = "<group>"; };
+		E11D8A891DB1D87000BB07A5 /* XYChoosePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYChoosePhotoViewController.m; sourceTree = "<group>"; };
+		E11D8A8B1DB1D88300BB07A5 /* XYAddPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYAddPhotoViewController.h; sourceTree = "<group>"; };
+		E11D8A8C1DB1D88300BB07A5 /* XYAddPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYAddPhotoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +63,11 @@
 			children = (
 				E11D8A741DB1D7AB00BB07A5 /* AppDelegate.h */,
 				E11D8A751DB1D7AB00BB07A5 /* AppDelegate.m */,
-				E11D8A771DB1D7AB00BB07A5 /* ViewController.h */,
-				E11D8A781DB1D7AB00BB07A5 /* ViewController.m */,
 				E11D8A7A1DB1D7AB00BB07A5 /* Main.storyboard */,
+				E11D8A881DB1D87000BB07A5 /* XYChoosePhotoViewController.h */,
+				E11D8A891DB1D87000BB07A5 /* XYChoosePhotoViewController.m */,
+				E11D8A8B1DB1D88300BB07A5 /* XYAddPhotoViewController.h */,
+				E11D8A8C1DB1D88300BB07A5 /* XYAddPhotoViewController.m */,
 				E11D8A7D1DB1D7AB00BB07A5 /* Assets.xcassets */,
 				E11D8A7F1DB1D7AB00BB07A5 /* LaunchScreen.storyboard */,
 				E11D8A821DB1D7AB00BB07A5 /* Info.plist */,
@@ -151,9 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E11D8A791DB1D7AB00BB07A5 /* ViewController.m in Sources */,
 				E11D8A761DB1D7AB00BB07A5 /* AppDelegate.m in Sources */,
 				E11D8A731DB1D7AB00BB07A5 /* main.m in Sources */,
+				E11D8A8A1DB1D87000BB07A5 /* XYChoosePhotoViewController.m in Sources */,
+				E11D8A8D1DB1D88300BB07A5 /* XYAddPhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

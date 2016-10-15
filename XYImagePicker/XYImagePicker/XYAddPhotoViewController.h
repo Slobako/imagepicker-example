@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  XYAddPhotoViewController.h
 //  XYImagePicker
 //
 //  Created by Slobodan Kovrlija on 10/14/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface XYAddPhotoViewController : UIViewController
 
 @end
-
