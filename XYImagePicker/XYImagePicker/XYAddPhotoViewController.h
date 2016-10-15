@@ -10,4 +10,7 @@
 
 @interface XYAddPhotoViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *addedPhotoImageView;
+@property (strong, nonatomic) UIImage *addedImage;
+
 @end

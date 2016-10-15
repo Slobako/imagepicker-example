@@ -43,7 +43,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="B9P-Cv-wyh"/>
                     <connections>
-                        <segue destination="w3w-GK-zgV" kind="show" id="2Dv-Nr-LLv"/>
+                        <segue destination="w3w-GK-zgV" kind="show" identifier="addPhotoSegue" id="2Dv-Nr-LLv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -109,6 +109,9 @@
                             <constraint firstItem="NvM-RC-FDf" firstAttribute="top" secondItem="gIk-He-UvM" secondAttribute="bottom" constant="25" id="ww5-oJ-dvR"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="addedPhotoImageView" destination="gIk-He-UvM" id="yLN-Xf-vJA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9B5-ux-2e9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
